@@ -1,3 +1,9 @@
+/*------------------------------------------------------------------
+	|	Purpose:	Demonstrate a use case of OpenMPI library with C
+	|
+	|	Author:		bhuone-garbu
+*-------------------------------------------------------------------*/
+
 #include <stdio.h>
 #include <stdlib.h>
 
