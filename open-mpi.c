@@ -426,7 +426,7 @@ int main(int argc, char **argv)
 	free( new_rows );
 	free( buff_array );
 	
-	// MPI finalize
+	// MPI finalize - need this or MPI will cry
 	MPI_Finalize();
 	
 	return 0;
