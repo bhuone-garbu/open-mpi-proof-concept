@@ -33,10 +33,14 @@ This depends on the cluster structure and processors of course, and more importa
 
 The initial value of these 2-d dimension does not reallly matter. The following initial **constant** value were used throughout.
 
+<pre>
 Using precision: 0.002
 Dimension: 5000
+</pre>
 
 Overiew of the speedup:
+![alt tag](https://raw.githubusercontent.com/bhuone-garbu/open-mpi-proof-concept/master/time%20vs%20processor.png)
 
+The time unit was probabbly in seconds but I don't quite remember.
 
 
