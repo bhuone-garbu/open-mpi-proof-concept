@@ -1,4 +1,4 @@
-# open-mpi-proof-concept for problem parallelisation
+# open-mpi-proof-concept - parallelisation
 
 This is proof of concept I wrote when I was at college/uni using OpenMPI to parallelize some computation on a 2-d array in C. The library is availabe at: https://www.open-mpi.org/
 
@@ -15,3 +15,8 @@ mpirun -np 5 ./executable 16 0.04
 The first argument after the executable program name will be the dimension and the second will the precision.
 
 NOTE: This is a PROOF OF CONCEPT for demonstration, not an absolute state of the art implementation of the problem. This is just show how OpenMPI can be used. For more info, seek.
+
+
+<h2>TODO</h2>
+
+Examples
