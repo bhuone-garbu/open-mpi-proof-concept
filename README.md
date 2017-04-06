@@ -26,3 +26,17 @@ NOTE: This is a PROOF OF CONCEPT for demonstration, not an absolute state of the
 Examples
 
 Setup
+
+
+<h3>Performance and stats</h3>
+This depends on the cluster structure and processors of course, and more importantly the overhead between the cluster processors' communication. I was fortunate to use one of the massive university cluster for this test.
+
+The initial value of these 2-d dimension does not reallly matter. The following initial **constant** value were used throughout.
+
+Using precision: 0.002
+Dimension: 5000
+
+Overiew of the speedup:
+
+
+
