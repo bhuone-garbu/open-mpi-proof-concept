@@ -2,8 +2,7 @@
 
 This is proof of concept I wrote when I was at college/uni using OpenMPI to parallelize some computation on a 2-d array in C. The library is availabe at: https://www.open-mpi.org/
 
-Basically, this is an array relaxation process that computes an average values based on surrounding neighbour values until a set precision is reached. Suprisingly, the way I split the load is very close to what is
-Since I suck at explanation, here a blog that describes almost exactly what I achieve with this: https://blogs.msdn.microsoft.com/visualizeparallel/2010/03/29/the-jacobi-relaxation-an-instance-of-data-parallelism/
+Basically, this is an array relaxation process that computes an average values based on surrounding neighbour values until a set precision is reached. Suprisingly, the problem and the way I split the load is very close to what is described here: https://blogs.msdn.microsoft.com/visualizeparallel/2010/03/29/the-jacobi-relaxation-an-instance-of-data-parallelism/
 
 <h3>Structure</h3>
 
